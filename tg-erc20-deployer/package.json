@@ -1,0 +1,14 @@
+{
+  "name": "tg-erc20-deployer",
+  "private": true,
+  "workspaces": ["bot", "miniapp"],
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-prettier": "^9",
+    "prettier": "^3"
+  }
+} 
